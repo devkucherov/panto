@@ -1,0 +1,10 @@
+@import "./../fonts/Gilroy/stylesheet.css";
+
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+
+/* Blocks */
+@import "./blocks/*.scss";
