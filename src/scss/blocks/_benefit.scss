@@ -1,5 +1,5 @@
-.benefit {
-}
+// .benefit {
+// }
 
 .benefit__title {
   margin-bottom: 20px;
@@ -14,15 +14,5 @@
   opacity: 0.8;
 }
 
-.benefit__link {
-  display: inline-flex;
-  gap: 13px;
-  color: var(--accent);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.85;
-
-  &::after {
-    content: url(./../img/icons/arrow-right.svg);
-  }
-}
+// .benefit__link {
+// }
