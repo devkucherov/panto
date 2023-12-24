@@ -1,8 +1,7 @@
 import Swiper from 'swiper/bundle';
-
 import 'swiper/css/bundle';
 
-const swiper = new Swiper('.swiper', {
+export const swiper = new Swiper('.swiper', {
   slidesPerView: 4,
   spaceBetween: 42,
   loop: true,
@@ -28,4 +27,3 @@ const swiper = new Swiper('.swiper', {
   //   },
   // },
 });
-
