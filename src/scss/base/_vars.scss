@@ -19,3 +19,8 @@
 	--font-footer-accent: 'DM Sans', sans-serif;
 }
 
+@mixin tablet {
+	@media (max-width: 992px) {
+    @content;
+  }
+} 

@@ -14,6 +14,10 @@
   a {
     color: var(--header-text-color);
   }
+
+  // @include tablet {
+  //   position: static;
+  // }
 }
 
 .header__nav {
