@@ -30,6 +30,7 @@
 
 .header__title {
   font-size: 80px;
+  font-size: clamp(1.75rem, 0.821rem + 4.64vw, 5rem);
   font-weight: 700;
   line-height: 130%; /* 104px */
   letter-spacing: -0.8px;
