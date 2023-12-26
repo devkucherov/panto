@@ -15,9 +15,12 @@
     color: var(--header-text-color);
   }
 
-  // @include tablet {
-  //   position: static;
-  // }
+  @include mobile {
+    padding-top: 20px;
+    padding-bottom: 240px;
+    background-position: center;
+    aspect-ratio: unset;
+  }
 }
 
 .header__nav {
